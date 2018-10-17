@@ -30,7 +30,7 @@ setup(
       'six>=1.6.1',
       'docopt',
       'requests>=2.4.0',
-      'urllib3',
+      'urllib3==1.23',
     ],
     entry_points={'console_scripts': [
       'azkaban = azkaban.__main__:main',
